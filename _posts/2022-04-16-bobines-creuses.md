@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bobines Creuses"
-tech_stack: [Data Analysis, Machine Learning, NearestNeighbors, Python, Dash, Pandas, Plotly]
+tech_stack: [Python, Machine Learning, NearestNeighbors, Dash, Pandas, Plotly]
 date: 2022-04-16 12:00:00
 image_url: /assets/images/posts/2022-04-16-bobines-creuses.png
 excerpt: A movie recommendation system based on the Nearest Neighbors algorithm
