@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+
+  {%- if posts.size > 0 -%}
+    {%- if page.list_title -%}
+      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+    <ul class="post-list">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+      {%- for post in posts -%}
+          <li class="post-item">
+            <a href="{{ post.project_url | relative_url }}" class="post-link" target="_blank">
+              <div class="post-image-container">
+
+                  <img src="{{ post.image_url }}" alt="{{ post.title | escape }}" class="post-image">
+                    <div class="post-description">
+                        <h4>{{ post.excerpt | escape }}</h4>
+                        <p class="post-meta">{{ post.date | date: date_format }}</p>
+                        {%- if site.show_excerpts -%}
+                            <p class="post-excerpt">{{ post.excerpt }}</p>
+                        {%- endif -%}
+                    </div>
+              </div>
+              <div class="post-title">{{ post.title | escape }}</div>
+            </a>
+          {%- if post.tech_stack -%}
+            <div class="tech-stack">
+                <span class="tech-label">Tech Stack:</span> <!-- Label for the tech stack -->
+                {%- for tech in post.tech_stack -%}
+                    <span class="tech-tag">{{ tech | escape }}</span>
+                    {%- if forloop.last == false -%} <!-- Add separator except after the last item -->
+                        <span class="separator">|</span>
+                    {%- endif -%}
+                {%- endfor -%}
+            </div>
+          {%- endif -%}
+          </li>
+      {%- endfor -%}
+    </ul>
+
+    {% if site.paginate %}
+      <div class="pager">
+        <ul class="pagination">
+        {%- if paginator.previous_page %}
+          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+        {%- endif %}
+          <li><div class="current-page">{{ paginator.page }}</div></li>
+        {%- if paginator.next_page %}
+          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+        {%- endif %}
+        </ul>
+      </div>
+    {%- endif %}
+
+  {%- endif -%}
+
+</div>
