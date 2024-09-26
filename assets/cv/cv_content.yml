@@ -1,0 +1,227 @@
+contact_label:
+  en: Contact Information
+  fr: Coordonnées
+  es: Información de contacto
+address_label:
+  en: Address
+  fr: Adresse
+  es: Dirección
+address_content:
+  en: 3 rue Lavoisier, 93500 Pantin (France)
+  fr: 3 rue Lavoisier, 93500 Pantin
+  es: 3 rue Lavoisier, 93500 Pantin (Francia)
+phone_label:
+  en: Phone
+  fr: Téléphone
+  es: Teléfono
+link_label:
+  en: Link to portfolio
+  fr: Lien vers le portfolio
+  es: Enlace al portfolio
+summary_label:
+  en: Summary
+  fr: Résumé
+  es: Resumen
+summary_content:
+  en: Data Engineer with solid experience in developing and optimizing data pipelines, database management, and Python programming, I seek to bring my skills to a dynamic team. \\Diplomatic, adaptable, and capable of working under pressure thanks to my experience as an elite handball referee\\
+  fr: Data Engineer avec une solide expérience dans le développement et l'optimisation de pipelines de données, gestion de bases de données et programmation en Python, je cherche à apporter mes compétences dans une équipe dynamique. \\Diplomate, adaptable et capable de travailler sous pression grâce à mon expérience en tant qu'arbitre élite de handball\\
+  es: Data Engineer con sólida experiencia en el desarrollo y optimización de pipelines de datos, gestión de bases de datos y programación en Python, busco contribuir con mis capacidades a un equipo dinámico. \\Diplomático, adaptable y capaz de trabajar bajo presión gracias a mi experiencia como árbitro de balonmano de élite\\
+experience_label:
+  en: Experience
+  fr: Expérience
+  es: Experiencia
+present_label:
+  en: Present
+  fr: Présent
+  es: Presente
+january_label:
+  en: Jan
+  fr: Jan
+  es: Ene
+february_label:
+  en: Feb
+  fr: Fév
+  es: Feb
+march_label:
+  en: Mar
+  fr: Mar
+  es: Mar
+april_label:
+  en: Apr
+  fr: Avr
+  es: Abr
+may_label:
+  en: May
+  fr: Mai
+  es: May
+june_label:
+  en: Jun
+  fr: Jui
+  es: Jun
+july_label:
+  en: Jul
+  fr: Jui
+  es: Jul
+august_label:
+  en: Aug
+  fr: Août
+  es: Ago
+september_label:
+  en: Sep
+  fr: Sep
+  es: Sep
+october_label:
+  en: Oct
+  fr: Oct
+  es: Oct
+november_label:
+  en: Nov
+  fr: Nov
+  es: Nov
+december_label:
+  en: Dec
+  fr: Déc
+  es: Dic
+
+namR_content:
+  en: |
+    • Database management: Model management, maintenance, SQL query optimization, data security \\
+    • Creation and maintenance of ETL: Audit, maintenance, and optimization of Python code \\
+    • Task automation: reporting, monitoring, service migration                                  \\
+  fr: |
+    • Gestion de base de données : Gestion de modèles, maintenance, optimisation de requêtes SQL, sécurité des données \\
+    • Création et maintenance d'ETL : Audit, maintenance et optimisation de code Python \\
+    • Automatisation de tâches : reporting, monitoring, migration de service                      \\
+  es: |
+    • Gestión de bases de datos: Gestión de modelos, mantenimiento, optimización de consultas SQL, seguridad de datos \\
+    • Creación y mantenimiento de ETL: Auditoría, mantenimiento y optimización de código Python \\
+    • Automatización de tareas: reporting, monitoreo, migración de servicios                      \\
+
+tech_stack_label:
+  en: Tech stack
+  fr: Stack technique
+  es: Tecnologías
+
+samu_social_content:
+  en: |
+    • Development of a web application to automate activity tracking and reporting: 54,000 people housed per day, - 400M annual budget, 11 different partners \\
+    • Creation of annual, monthly, weekly reports and presentation to teams \\
+  fr: |
+    • Développement d'une application web pour automatiser le suivi de l'activité et le reporting : 54 000 personnes hébergées par jour, - 400M de budget annuel, 11 partenaires différents \\
+    • Création de rapports annuels, mensuels, hebdomadaires et présentation aux équipes \\
+  es: |
+    • Desarrollo de una aplicación web para automatizar el seguimiento de la actividad y reporting: 54,000 personas alojadas por día, - 400M de presupuesto anual, 11 socios diferentes \\
+    • Creación de informes anuales, mensuales, semanales y presentación a los equipos \\
+
+salto_content:
+  en: |
+    • Enrichment of consumption data on BigQuery: API queries and table updates \\
+    • Production deployment with Cloud Functions and Scheduler \\
+    • Data analysis and visualization \\
+  fr: |
+    • Enrichissement des données de consommation sur BigQuery : requêtes API et mises à jour de table \\
+    • Déploiement en production avec Cloud Functions et Scheduler \\
+    • Analyse et visualisation des données \\
+  es: |
+    • Enriquecimiento de datos de consumo en BigQuery: consultas API y actualizaciones de tablas \\
+    • Puesta en producción con Cloud Functions y Scheduler \\
+    • Análisis y visualización de datos \\
+
+student_projects_label:
+  en: Student projects
+  fr: Projets étudiant
+  es: Proyectos de estudiante
+
+student_projects_content:
+  en: |
+    • Film recommendation system for a fictional client (6 weeks) \\
+    • Web application with integrated Machine Learning model (Nearest Neighbors) \\
+    • Dynamic dashboard for a fictional client (3 weeks) \\
+  fr: |
+    • Système de recommandation de films pour un client fictif (6 semaines) \\
+    • Application web avec modèle de Machine Learning intégré (Nearest Neighbors) \\
+    • Tableau de bord dynamique pour un client fictif (3 semaines) \\
+  es: |
+    • Sistema de recomendación de películas para un cliente ficticio (6 semanas) \\
+    • Aplicación web con modelo de Machine Learning integrado (Nearest Neighbors) \\
+    • Cuadro de mandos dinámico para un cliente ficticio (3 semanas) \\
+
+education_label:
+  en: Education
+  fr: Éducation
+  es: Educación
+
+master_label:
+  en: Master's Degree in International Cooperation in Education and Training
+  fr: Master en Coopération Internationale en Éducation et Formation
+  es: Máster en Cooperación Internacional en Educación y Formación
+
+languages_label:
+  en: Languages
+  fr: Langues
+  es: Idiomas
+
+english_label:
+  en: English
+  fr: Anglais
+  es: Inglés
+
+french_label:
+  en: French
+  fr: Français
+  es: Francés
+
+spanish_label:
+  en: Spanish
+  fr: Espagnol
+  es: Español
+
+skills_label:
+  en: Skills
+  fr: Compétences
+  es: Competencias
+
+notions_label:
+  en: notions
+  fr: notions
+  es: nociones
+
+advanced_label:
+  en: Advanced
+  fr: Avancé
+  es: Avanzado
+
+native_label:
+  en: Native
+  fr: Langue maternelle
+  es: Lengua materna
+
+problem_solving_label:
+  en: Problem-solving
+  fr: Solution de problèmes
+  es: Solución de problemas
+
+algorithms_label:
+  en: Algorithms
+  fr: Algorithmes
+  es: Algoritmos
+
+organization_label:
+  en: Organization
+  fr: Organisation
+  es: Organización
+
+decision_making_label:
+  en: Decision-making
+  fr: Prise de décision
+  es: Toma de decisiones
+
+rigor_label:
+  en: Rigor
+  fr: Rigueur
+  es: Rigor
+
+leadership_label:
+  en: Leadership
+  fr: Leadership
+  es: Liderazgo

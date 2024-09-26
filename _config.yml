@@ -27,7 +27,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: PMartinCalvo
 github_username:  pablomc87
-resume: https://drive.google.com/file/d/1JALhQPtHPsmB0Gtjwn56wCoqqM9Iswly/view?usp=sharing
 
 paginate: 4
 paginate_path: '/:num/'

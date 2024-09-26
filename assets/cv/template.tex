@@ -1,0 +1,259 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\definecolor{header-color}{RGB}{239, 244, 249}
+\definecolor{line-color}{RGB}{220, 220, 220}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+    \begin{tikzpicture}[remember picture, overlay]
+        \node [inner sep=0, fill=header-color, minimum width=\paperwidth, minimum height=4cm] at (8.5, 1){};
+        \node[anchor=north, inner sep=0pt] at(8.5, 1.5)
+            { % Shift vertically to adjust the text positioning
+            \begin{minipage}[t]{\textwidth} % Ensure the minipage takes the full width of the page
+                \vspace{10pt}
+                {\HUGE\textcolor{BlueViolet}{\textbf{Pablo Martín Calvo}}} % Full name
+                \vspace{6pt}
+
+                {\huge\textcolor{BlueViolet}{\textbf{Data Engineer}}}
+            \end{minipage}
+        };
+    \end{tikzpicture}
+
+
+    \vspace{1cm}
+
+    \noindent
+    \begin{minipage}[t]{0.275\textwidth} % 45% of the page width for the first column
+        \vspace{0pt} % Ensure the minipage starts at the top
+        \cvsect{{{contact_label}}}
+        % The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+        % Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.725\textwidth} % 45% of the page width for the second column
+        \vspace{1.15\baselineskip} % Ensure the minipage starts at the top
+        {\textcolor{BlueViolet}{\textbf{E-mail}}}: pablomc87@gmail.com\\
+        {\textcolor{BlueViolet}{\textbf{{{address_label}}}}}: {{address_content}}\\
+        {\textcolor{BlueViolet}{\textbf{{{phone_label}}}}}: +33652217711\\
+        {\textcolor{BlueViolet}{\textbf{{{link_label}}}}}: https://pablomc87.github.io/\\
+    \end{minipage}
+    \noindent
+    \textcolor{line-color}{\rule{0.25\textwidth}{0.5pt}} % Line matching the first minipage width
+    \hfill
+    \textcolor{line-color}{\rule{0.725\textwidth}{0.5pt}} % Line matching the second minipage width
+    \vspace{-0.5cm}
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+    \noindent
+    \begin{minipage}[t]{0.275\textwidth} % 45% of the page width for the first column
+        \vspace{0pt} % Ensure the minipage starts at the top
+        \cvsect{{{summary_label}}}
+        % The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+        % Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.725\textwidth} % 45% of the page width for the second column
+        \vspace{1.1\baselineskip} % Ensure the minipage starts at the top
+
+        {{summary_content}}
+    \end{minipage}
+    \noindent
+    \textcolor{line-color}{\rule{0.25\textwidth}{0.5pt}} % Line matching the first minipage width
+    \hfill
+    \textcolor{line-color}{\rule{0.725\textwidth}{0.5pt}} % Line matching the second minipage width
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+    \cvsect{{{experience_label}}}
+
+    \begin{entrylist}
+        \entry
+        {namR                         \\\footnotesize{{{september_label}} 2023 -- {{september_label}} 2024}}
+        {Data Engineer}
+        {}
+        {{{namR_content}}\\
+        \texttt{{{tech_stack_label}}:}
+        \texttt{Python}\slashsep
+        \texttt{PostgreSQL}\slashsep
+        \texttt{GCP}\slashsep
+        \texttt{Airflow}\slashsep
+        \texttt{Kubernetes}\slashsep
+        \texttt{Terraform}\slashsep
+        \texttt{Dataiku}\slashsep
+        \texttt{GitLab CI/CD}\slashsep
+        \texttt{API}                  \\
+        }
+
+        \entry
+        {SamuSocial de Paris          \\\footnotesize{{{september_label}} 2022 -- {{july_label}} 2023}}
+        {Data Analyst}
+        {}
+        {{{samu_social_content}}\\
+        \texttt{{{tech_stack_label}}:}
+        \texttt{Python}\slashsep
+        \texttt{PostgreSQL}\slashsep
+        \texttt{SQL}\slashsep
+        \texttt{Dash}\slashsep
+        \texttt{Plotly}\slashsep
+        \texttt{Excel}\slashsep
+        \texttt{Cron jobs}\slashsep
+        \texttt{PPT}                  \\
+        }
+
+        \entry
+        {Salto                        \\\footnotesize{{{may_label}} 2022 -- {{july_label}} 2022}}
+        {Data Analyst}
+        {}
+        {{{salto_content}}\\
+        \texttt{{{tech_stack_label}}:}
+        \texttt{Python}\slashsep
+        \texttt{SQL}\slashsep
+        \texttt{GCP}\slashsep
+        \texttt{BigQuery}\slashsep
+        \texttt{Dash}\slashsep
+        \texttt{Plotly}\slashsep
+        \texttt{Google Data Studio}   \\
+        }
+
+        \entry
+        {{{student_projects_label}}                                                                           \\\footnotesize{Mar 2022 -- {{may_label}} 2022}}
+        {Data Analyst}
+        {}
+        {{{student_projects_content}}\\
+        \texttt{{{tech_stack_label}}:}
+        \texttt{Python}\slashsep
+        \texttt{SQL}\slashsep
+        \texttt{GCP}\slashsep
+        \texttt{Dash}\slashsep
+        \texttt{Plotly}\slashsep
+        \texttt{Tableau}\slashsep
+        \texttt{Machine Learning}
+        }
+    \end{entrylist}
+    \noindent
+    \textcolor{line-color}{\rule{0.25\textwidth}{0.5pt}} % Line matching the first minipage width
+    \hfill
+    \textcolor{line-color}{\rule{0.725\textwidth}{0.5pt}} % Line matching the second minipage width
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+    \cvsect{{{education_label}}}
+
+    \begin{entrylist}
+        \entry
+        {{{september_label}} 2023 -- {{september_label}} 2024}
+        {Data Engineer    \\\footnotesize{Wild Code School}}
+        {}
+        {}
+        \entry
+        {{{february_label}} 2022 -- {{july_label}} 2022}
+        {Data Analyst     \\\footnotesize{Wild Code School}}
+        {}
+        {}
+        \entry
+        {{{september_label}} 2017 -- {{october_label}} 2018}
+        {{{master_label}} \\\footnotesize{Paris V Descartes - Sorbonne}}
+        {}
+        {}
+    \end{entrylist}
+    \noindent
+    \textcolor{line-color}{\rule{0.25\textwidth}{0.5pt}} % Line matching the first minipage width
+    \hfill
+    \textcolor{line-color}{\rule{0.725\textwidth}{0.5pt}} % Line matching the second minipage width
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+    \begin{minipage}[t]{1\textwidth} % Full width of the page
+        \vspace{0pt} % Ensure the minipage starts at the top
+        \begin{minipage}[t]{0.275\textwidth} % Width for the Languages section
+            \vspace{0pt} % Ensure the minipage starts at the top
+
+            \cvsect{{{languages_label}}}
+            \begin{minipage}[t]{1\textwidth}
+                \vspace{1.15\baselineskip}
+
+                {\textcolor{BlueViolet}{\textbf{{{english_label}}}}\\\footnotesize{{{advanced_label}}}} \\ \\
+                {\textcolor{BlueViolet}{\textbf{{{french_label}}}}\\\footnotesize{{{advanced_label}}}} \\ \\
+                {\textcolor{BlueViolet}{\textbf{{{spanish_label}}}}\\\footnotesize{{{native_label}}}}
+            \end{minipage}
+        \end{minipage}
+        \hfill
+        \begin{minipage}[t]{0.725\textwidth} % Combined width of the second and third columns
+            \vspace{0pt} % Ensure the minipage starts at the top
+
+            \cvsect{{{skills_label}}} % Single header for the combined columns
+
+            \begin{minipage}[t]{0.45\textwidth} % 50% of the combined width for the first part
+                \vspace{0pt} % Ensure the minipage starts at the top
+                Python \\
+                AWS \\
+                Airflow \\
+                Git, GitHub, GitLab \\
+                YAML \\
+                Kubernetes ({{notions_label}}) \\
+                Dataiku \\
+                Jira \\
+                {{problem_solving_label}} \\
+                {{algorithms_label}} \\
+                {{organization_label}}
+
+            \end{minipage}
+            \hfill
+            \begin{minipage}[t]{0.45\textwidth} % 50% of the combined width for the second part
+                \vspace{0pt} % Ensure the minipage starts at the top
+                SQL \\
+                GCP \\
+                Docker \\
+                CI/CD \\
+                Bash / Linux \\
+                Terraform ({{notions_label}}) \\
+                Hadoop, Spark ({{notions_label}}) \\
+                React \\
+                {{decision_making_label}} \\
+                {{rigor_label}} \\
+                {{leadership_label}}
+            \end{minipage}
+        \end{minipage}
+    \end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
