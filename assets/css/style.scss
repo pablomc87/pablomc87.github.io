@@ -37,13 +37,13 @@ a img {
   color: white;
   text-decoration: none;
   border-radius: 10px;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 }
 
 .pagination .current-page {
   padding: 10px 15px;
   background-color: $header-bg-color-secondary; /* Adjust as needed */
   color: white;
-  text-align: center;
   border-radius: 10px;
 }
 
@@ -148,4 +148,32 @@ a img {
     padding: 0;                             /* Remove default padding */
     margin: 0;                              /* Remove default margin */
     list-style-type: none;                  /* Remove bullet points */
+}
+
+.post-list-heading {
+    text-align: center;                     /* Center the heading */
+    padding-bottom: 50px;                    /* Space below the heading */
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+    padding: 20px 0;          /* Space above and below */
+}
+
+.in-body-btn {
+    display: inline-flex; /* Ensures the links align vertically */
+    align-items: center;  /* Aligns text and elements in the middle */
+    padding: 10px 15px;
+    background-color: lighten($body-link-color, 30%); /* Adjust as needed */
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+
+    &:hover {
+      text-decoration: none;
+      background-color: $body-link-color;
+    }
 }
