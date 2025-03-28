@@ -31,9 +31,9 @@ experience_label:
   fr: Expérience
   es: Experiencia
 present_label:
-  en: Present
-  fr: Présent
-  es: Presente
+  en: Currently
+  fr: Actuellement
+  es: En la actualidad
 january_label:
   en: Jan
   fr: Jan
@@ -82,6 +82,23 @@ december_label:
   en: Dec
   fr: Déc
   es: Dic
+
+chance_content:
+  en: |
+    • Database management: Model management, maintenance, SQL query optimization, data security \\
+    • DataOps: monitoring, service migration, automation                                        \\
+    - Saved ~1200€ per month by migrating Fivetran connectors to Airbyte                        \\
+    - Optimized Meta Ads by connecting offline events to Conversions API
+  fr: |
+    • Gestion de base de données : Gestion de modèles, maintenance, optimisation de requêtes SQL, sécurité des données \\
+    • DataOps: monitoring, migration de services, automatisation                                        \\
+    - Economisé ~1200€ par mois en migrant les connecteurs Fivetran vers Airbyte                        \\
+    - Optimisé Meta Ads en connectant les événements hors ligne à l'API Conversions
+  es: |
+    • Gestión de bases de données: Gestión de modelos, mantenimiento, optimización de consultas SQL, seguridad de datos \\
+    • DataOps: monitoreo, migración de servicios, automatización                                        \\
+    • Ahorré ~1200€ al mes al migrar los conectores Fivetran a Airbyte                         \\
+    • Optimizé Meta Ads al conectar eventos offline a la Conversions API              \\
 
 namR_content:
   en: |
